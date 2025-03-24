@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tailwind CSS</title>
+</head>
+<body class="bg-slate-700 grid place-content-center h-screen">
+    <h1 class="text-white m-2 text-xl text-center">Utility - First Fundamentals</h1>
+    <!-- Card 1 -->
+    <div class="p-5 max-w-sm mx-auto bg-white rounded-md shadow-lg flex items-center space-x-4">
+        <div>
+            <img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="image">
+        </div>
+        <div>
+        <div class="text-xl font-medium">
+                    Tailwind CSS
+                <p class="text-base font-normal text-slate-500">By Priyashi Shah</p>
+                </div>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+     <div class="max-w-sm p-4 mx-auto bg-white mt-4 rounded-md">
+        <div>
+            <img class="w-100 h-100 mx-auto mb-2" src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="image">
+        </div>
+        <div>
+            <div class="text-slate-600 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe eius doloribus repellat excepturi unde sequi?</div>
+        </div>
+     </div>
+
+     <button class="bg-sky-500 hover:bg-white hover:text-black dark:text-green-400 dark:bg-black text-white mt-3 py-2 rounded">Buy Now</button>
+
+     <p class="mt-3 text-center sm:text-green-600 md:text-white">Responsive Design</p>
+</body>
+</html>
+
+<!-- 
+npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch
+-->

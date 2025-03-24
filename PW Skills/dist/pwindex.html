@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PW Skills - Tailwind CSS Development</title>
+</head>
+<body class="bg-slate-950">
+    
+    <!-- Navbar -->
+     <nav class="w-full h-14 bg-blue-300 flex justify-between items-center px-4">
+        <div class="text-2xl text-indigo-700">PW Skills</div>
+        <ul class="hidden font-semibold md:flex items-center place-content-center">
+            <li class="mx-[10px] cursor-pointer"><a href="#home">Home</a></li>
+            <li class="mx-[10px] cursor-pointer"><a href="#about">About Us</a></li>
+            <li class="mx-[10px] cursor-pointer"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="hidden md:block bg-indigo-700 hover:bg-indigo-800 text-white p-2 rounded cursor-pointer">Login/SignUp</div>
+        <div class="md:hidden">
+            <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+     </nav>
+
+     <!-- Header -->
+      <header id="home" class="w-full h-auto">
+        <img class="hidden md:block w-full" src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/web.jpg" alt="" srcset="">
+        <img class="md:hidden w-full" src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/mobile.jpg" alt="" srcset="">
+      </header>
+
+      <!-- Students Section -->
+       <div id="about" class="p-10 h-auto w-full flex flex-wrap flex-col items-center text-center">
+        <div>
+            <p class="text-indigo-700 text-2xl md:text-3xl font-semibold">"Pure Hardwork, No Shortcuts"</p>
+            <div class="w-32 h-1 border-b-4 border-yellow-500 mx-auto mt-2 md:mt-3 mb-12"></div>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly">
+            <div class="w-46 flex flex-col items-center">
+                <!-- https://pwskills.com/images/landing-page/statistics/books-icon.svg -->
+                <img class="w-20 h-20" src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/10d0c268-a52f-4bcc-8486-3b64d1185569.svg" alt="image">
+                <p class="text-white font-bold text-2xl">600+</p>
+                <p class="text-gray-500 font-bold text-2xl">Different Courses</p>
+            </div>
+            <div class="w-46 flex flex-col items-center">
+                <img class="w-20 h-20" src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/479347c6-ab68-4cf3-bc0a-b309a09781d1.svg" alt="image">
+                <p class="text-white font-bold text-2xl">700,000+</p>
+                <p class="text-gray-500 font-bold text-2xl">Students Enrolled</p>
+            </div>
+            <div class="w-46 flex flex-col items-center">
+                <img class="w-20 h-20" src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/10d0c268-a52f-4bcc-8486-3b64d1185569.svg" alt="image">
+                <p class="text-white font-bold text-2xl">10,000+</p>
+                <p class="text-gray-500 font-bold text-2xl">Successful Transition</p>
+            </div>
+
+        </div>
+       </div>
+
+       <!-- Products Section -->
+       <div class="p-10 h-auto w-full flex flex-wrap flex-col items-center text-center">
+        <div>
+            <p class="text-indigo-700 text-2xl md:text-3xl font-semibold">Our Products</p>
+            <div class="w-32 h-1 border-b-4 border-yellow-500 mx-auto mt-2 md:mt-3 mb-12"></div>
+        </div>
+        <div class="w-[95%] flex flex-wrap justify-around">
+            <div class="w-52 flex flex-col items-center p-1 py-2 border-white border-[1] hover:border-white hover:border-[1px] hover:rounded-md">
+                <img class="w-20 h-20" src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/479347c6-ab68-4cf3-bc0a-b309a09781d1.svg" alt="image">
+                <p class="text-white font-bold text-2xl">PW Skills Lab</p>
+                <p class="text-gray-500 font-bold text-base">Supercharge your project development with our robust lab.</p>
+            </div>
+            <div class="w-52 flex flex-col items-center p-1 py-2 hover:border-white hover:border-[1px] hover:rounded-md">
+                <img class="w-20 h-20" src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/10d0c268-a52f-4bcc-8486-3b64d1185569.svg" alt="image">
+                <p class="text-white font-bold text-2xl">Job Portal</p>
+                <p class="text-gray-500 font-bold text-base">Use exceptional templates for a stand-out resume process.</p>
+            </div>
+            <div class="w-52 flex flex-col items-center p-1 py-2 hover:border-white hover:border-[1px] hover:rounded-md">
+                <img class="w-20 h-20" src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/479347c6-ab68-4cf3-bc0a-b309a09781d1.svg" alt="image">
+                <p class="text-white font-bold text-2xl">Experience Portal</p>
+                <p class="text-gray-500 font-bold text-base">PW skills self-paced excperience portal priorities.</p>
+            </div>
+            <div class="w-52 flex flex-col items-center p-1 py-2 hover:border-white hover:border-[1px] hover:rounded-md">
+                <img class="w-20 h-20" src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/10d0c268-a52f-4bcc-8486-3b64d1185569.svg" alt="image">
+                <p class="text-white font-bold text-2xl">Affiliate</p>
+                <p class="text-gray-500 font-bold text-base">Explore affiliate digital marketing opoprtunities with PW.</p>
+            </div>
+            <div class="w-52 flex flex-col items-center p-1 py-2 hover:border-white hover:border-[1px] hover:rounded-md">
+                <img class="w-20 h-20" src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/479347c6-ab68-4cf3-bc0a-b309a09781d1.svg" alt="image">
+                <p class="text-white font-bold text-2xl">Hall of Fame</p>
+                <p class="text-gray-500 font-bold text-base">Our students placements and 100K+ career opportunities.</p>
+            </div>
+
+        </div>
+       </div>
+
+       <!-- Footer Section -->
+        <footer id="contact" class="w-full bg-gray-900 text-white px-4 pt-8 pb-10 flex flex-row justify-between md:flex-row flex-wrap">
+            <div class="mb-3 md:mb-0">
+                <img class="w-40 h-16" src="https://pwskills.com/images/PWSkills-white.png" alt="PW Skills">
+                <p>Email us: support@pwskills.com</p>
+            </div>
+            <div class="mb-3 md:mb-0">
+                <p class="font-bold text-lg">PW Skills</p>
+                <div class="w-32 h-1 border-b-4 border-yellow-500 my-2 md:mt-3"></div>
+                <ul>
+                    <li>About Us</li>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="mb-3 md:mb-0">
+                <p class="font-bold text-lg">Products</p>
+                <div class="w-32 h-1 border-b-4 border-yellow-500 my-2 md:mt-3"></div>
+                <ul>
+                    <li>PW Skills Lab</li>
+                    <li>Job Portal</li>
+                    <li>Experience Portal</li>
+                    <li>Affiliate</li>
+                    <li>Hall of Fame</li>
+                </ul>
+            </div>
+            <div class="mb-3 md:mb-0">
+                <p class="font-bold text-lg">Links</p>
+                <div class="w-32 h-1 border-b-4 border-yellow-500 my-2 md:mt-3"></div>
+                <ul>
+                    <li>Discord Channel</li>
+                    <li>PW Youtube</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+        </footer>
+</body>
+</html>
